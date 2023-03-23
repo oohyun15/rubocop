@@ -719,6 +719,9 @@ Style/RedundantStringEscape:
 Style/RegexpLiteral:
   EnforcedStyle: mixed
 
+Style/RescueModifier:
+  Enabled: false
+
 Style/RescueStandardError:
   Enabled: false
 
