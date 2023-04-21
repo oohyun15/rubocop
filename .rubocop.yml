@@ -785,9 +785,6 @@ Style/TrailingUnderscoreVariable:
 Style/UnpackFirst:
   Enabled: false
 
-Style/WordArray:
-  EnforcedStyle: brackets
-
 Style/YodaCondition:
   Enabled: false
 
