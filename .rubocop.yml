@@ -761,9 +761,6 @@ Style/StructInheritance:
 Style/SwapValues:
   Enabled: false
 
-Style/SymbolArray:
-  EnforcedStyle: brackets
-
 Style/TrailingBodyOnMethodDefinition:
   Enabled: false
 
