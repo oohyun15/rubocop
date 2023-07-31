@@ -761,6 +761,9 @@ Style/StructInheritance:
 Style/SwapValues:
   Enabled: false
 
+Style/SymbolArray:
+  Enabled: false
+
 Style/TrailingBodyOnMethodDefinition:
   Enabled: false
 
