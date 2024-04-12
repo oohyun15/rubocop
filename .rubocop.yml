@@ -83,7 +83,7 @@ Layout/FirstHashElementIndentation:
   EnforcedStyle: consistent
 
 Layout/HashAlignment:
-  EnforcedLastArgumentHashStyle: ignore_implicit
+  Enabled: false
 
 Layout/LineContinuationLeadingSpace:
   Enabled: false
