@@ -4,7 +4,7 @@ require:
   - rubocop-rails
 
 AllCops:
-  TargetRubyVersion: 3.1.4
+  TargetRubyVersion: 3.2.3
   # DisabledByDefault: true
   SuggestExtensions: false
   Exclude:
