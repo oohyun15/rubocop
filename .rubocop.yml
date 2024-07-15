@@ -2,15 +2,19 @@ require:
   - rubocop-packaging
   - rubocop-performance
   - rubocop-rails
+  - rubocop-rspec
+  - rubocop-rspec_rails
+  - rubocop-factory_bot
+  - rubocop-md
 
 AllCops:
   TargetRubyVersion: 3.2.4
-  # DisabledByDefault: true
   SuggestExtensions: false
   Exclude:
     - "db/**/*"
     - "script/**/*"
     - "tmp/**/*"
+    - 'node_modules/**/*'
   Include:
     - "vendor/gems/**/*"
 
@@ -98,9 +102,6 @@ Layout/LineEndStringConcatenationIndentation:
 Layout/LineLength:
   Enabled: true
   Max: 200
-  # IgnoreCopDirectives: false
-  # AllowedPatterns:
-  # - "\\A\\s*(remote_)?test(_\\w+)?\\s.*(do|->)(\\s|\\Z)"
 
 Layout/MultilineMethodCallIndentation:
   EnforcedStyle: indented
@@ -586,15 +587,6 @@ Style/MapToHash:
 
 Style/MethodCallWithArgsParentheses:
   Enabled: false
-  # AllowedMethods:
-  #   - require
-  #   - require_relative
-  #   - require_dependency
-  #   - yield
-  #   - raise
-  #   - puts
-  # Exclude:
-  #   - "/**/Gemfile"
 
 Style/MinMax:
   Enabled: false
