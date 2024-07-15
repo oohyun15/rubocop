@@ -72,7 +72,7 @@ Layout/EndAlignment:
   EnforcedStyleAlignWith: variable
 
 Layout/EmptyLineAfterGuardClause:
-  Enabled: true
+  Enabled: false
 
 Layout/EmptyLineAfterMagicComment:
   Enabled: true
