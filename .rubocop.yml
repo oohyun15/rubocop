@@ -398,6 +398,18 @@ Naming/RescuedExceptionsVariableName:
 Naming/VariableNumber:
   Enabled: false
 
+RSpec/ExampleLength:
+  Enabled: false
+
+RSpec/InstanceVariable:
+  Enabled: false
+
+RSpec/MultipleExpectations:
+  Enabled: false
+
+RSpec/RedundantAround:
+  Enabled: false
+
 Security/CompoundHash:
   Enabled: false
 
