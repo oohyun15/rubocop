@@ -14,7 +14,7 @@ AllCops:
     - "db/**/*"
     - "script/**/*"
     - "tmp/**/*"
-    - 'node_modules/**/*'
+    - "node_modules/**/*"
   Include:
     - "vendor/gems/**/*"
 
@@ -48,6 +48,9 @@ Rails/UnknownEnv:
   Enabled: false
 
 Rails/DynamicFindBy:
+  Enabled: false
+
+Rails/HelperInstanceVariable:
   Enabled: false
 
 Bundler/OrderedGems:
